@@ -5,6 +5,35 @@
     <title>Title</title>
 </head>
 <body>
-    Great Job!
+<form method="post" action="/">
+        <!-- Heading -->
+        <h4>
+       Add Tweet
+        </h4>
+        <p >
+        your add tweet form
+        </p>
+
+        <!-- Title -->
+        <div>
+            <label>Title Of The Tweet</label>
+            <div>
+                <input type="title"  name="title" id="title" required>
+            </div>
+        </div>
+
+        <!-- Text -->
+        <div>
+            <label>Text Of The Tweet</label>
+            <div class="input-group">
+                <input type="tweet"  name="tweet" maxlength="280">
+            </div>
+        </div>
+        
+        <!-- Button -->
+        <div>
+            <input type="submit"/>
+        </div>
+    </form>
 </body>
 </html>
