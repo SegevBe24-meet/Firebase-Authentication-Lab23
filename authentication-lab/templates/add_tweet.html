@@ -2,10 +2,10 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <title>add tweet</title>
 </head>
 <body>
-<form method="post" action="/">
+<form method="post" action="/add_tweet">
         <!-- Heading -->
         <h4>
        Add Tweet
@@ -26,13 +26,13 @@
         <div>
             <label>Text Of The Tweet</label>
             <div class="input-group">
-                <input type="tweet"  name="tweet" maxlength="280">
+                <input type="tweet"  name="text" maxlength="280">
             </div>
         </div>
         
         <!-- Button -->
         <div>
-            <input type="submit"/>
+            <input href="/tweets" type="submit"/>
         </div>
     </form>
 </body>
