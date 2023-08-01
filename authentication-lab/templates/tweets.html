@@ -6,9 +6,11 @@
 </head>
 <body>
 <h1>All of your tweets</h1>
-{%for tweet in add_tweet%}
-{{tweets[tweet]['title']}}
-{{tweets[tweet]['text']}}
-{%endfor%}
+<div>
+    {%for tweet in tweets %}
+        {{tweets[tweet]['title']}}
+        {{tweets[tweet]['text']}}
+    {%endfor%}
+</div>
 </body>
 </html>
